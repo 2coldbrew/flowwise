@@ -90,6 +90,8 @@
     "overrides": {
   "flowise-react-json-view>react": "18.2.0",
   "flowise-react-json-view>react-dom": "18.2.0"
-}
+},
+    "preinstall": "npm install --force"
+
 
 }
