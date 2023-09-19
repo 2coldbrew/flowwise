@@ -54,7 +54,9 @@
         "dev": "craco start",
         "build": "craco build",
         "test": "craco test",
-        "eject": "craco eject"
+        "eject": "craco eject",
+        "preinstall": "npm install --force",
+        "deploy": "npm run build"
     },
     "babel": {
         "presets": [
