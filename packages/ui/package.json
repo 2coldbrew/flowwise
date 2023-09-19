@@ -28,8 +28,8 @@
         "notistack": "^2.0.4",
         "prismjs": "^1.28.0",
         "prop-types": "^15.7.2",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "react-code-blocks": "^0.0.9-0",
         "react-color": "^2.19.3",
         "react-datepicker": "^4.8.0",
@@ -86,5 +86,10 @@
         "react-scripts": "^5.0.1",
         "sass": "^1.42.1",
         "typescript": "^4.8.4"
-    }
+    },
+    "overrides": {
+  "flowise-react-json-view>react": "18.2.0",
+  "flowise-react-json-view>react-dom": "18.2.0"
+}
+
 }
