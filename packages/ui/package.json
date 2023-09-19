@@ -19,6 +19,7 @@
         "flowise-embed": "*",
         "flowise-embed-react": "*",
         "flowise-react-json-view": "*",
+        "flowise-react-json-view": "git+https://github.com/2coldbrew/react-json-view.git",
         "formik": "^2.2.6",
         "framer-motion": "^4.1.13",
         "history": "^5.0.0",
