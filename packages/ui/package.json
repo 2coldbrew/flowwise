@@ -55,7 +55,8 @@
         "build": "craco build",
         "test": "craco test",
         "eject": "craco eject",
-        "deploy": "npm install --legacy-peer-deps && npm run build"
+        "preinstall": "npm install --legacy-peer-deps",
+        "deploy": "npm run build"
     },
     "babel": {
         "presets": [
